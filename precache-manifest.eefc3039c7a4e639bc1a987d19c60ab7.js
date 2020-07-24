@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbc95203d5328d9f94df9c5c0955a9a9",
+    "revision": "664279bc5e906e4a492c4df2a88dadba",
     "url": "/clive_profolio-site/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clive_profolio-site/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "f7f6678453878d3092bc",
+    "revision": "c35533423868f5c89531",
     "url": "/clive_profolio-site/static/css/main.70a87754.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/clive_profolio-site/static/js/2.48d4796f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7f6678453878d3092bc",
-    "url": "/clive_profolio-site/static/js/main.d694f61e.chunk.js"
+    "revision": "c35533423868f5c89531",
+    "url": "/clive_profolio-site/static/js/main.ee6d42cf.chunk.js"
   },
   {
     "revision": "88ee5a5551702ae2941a",
