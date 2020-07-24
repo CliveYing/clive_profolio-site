@@ -58,22 +58,22 @@ class App extends React.Component {
             <Navbar.Toggle className = "border-0" aria-controls = "navbar-toggle"/>
               <Navbar.Collapse id = "navbar-toggle">
                 <Nav className = "auto">
-                  <Link className = "nav-link" to = "clive_profolio-site/">Home</Link>
-                  <Link className = "nav-link" to = "clive_profolio-site/about">About</Link>
-                  <Link className = "nav-link" to = "clive_profolio-site/contact">Contact</Link>
+                  <Link className = "nav-link" to = "/clive_profolio-site/">Home</Link>
+                  <Link className = "nav-link" to = "/clive_profolio-site/about">About</Link>
+                  <Link className = "nav-link" to = "/clive_profolio-site/contact">Contact</Link>
                 </Nav>
               </Navbar.Collapse>
           </Navbar>
 
           {/* This routing section renders pages from pages folder */}
-          <Route path="clive_profolio-site/" exact render={()=> 
+          <Route path="/clive_profolio-site/" exact render={()=> 
               <HomePage title = {this.state.home.title} 
                         subTitle = {this.state.home.subTitle}
                         text = {this.state.home.text} />} />
-          <Route path="clive_profolio-site/about" exact render={()=> 
+          <Route path="/clive_profolio-site/about" exact render={()=> 
               <AboutPage title = {this.state.about.title} 
                          />} />
-          <Route path="clive_profolio-site/contact" exact render={()=> 
+          <Route path="/clive_profolio-site/contact" exact render={()=> 
               <ContactPage title = {this.state.contact.title} 
                          />} />
 
